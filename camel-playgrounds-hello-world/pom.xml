@@ -9,8 +9,7 @@
     </parent>
 
     <packaging>jar</packaging>
-    <artifactId>camel-playgrounds-timer</artifactId>
-    <name>camel-timer-playground</name>
+    <artifactId>camel-playgrounds-hello-world</artifactId>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

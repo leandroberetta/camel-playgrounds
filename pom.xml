@@ -10,7 +10,8 @@
     <url>http://maven.apache.org</url>
 
     <modules>
-        <module>camel-playgrounds-timer</module>
+        <module>camel-playgrounds-hello-world</module>
+        <module>camel-playgrounds-idempotent-consumers</module>
     </modules>
 
     <properties>
@@ -52,11 +53,13 @@
             <artifactId>slf4j-api</artifactId>
             <version>${slf4j-version}</version>
         </dependency>
+        <!--
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>${slf4j-version}</version>
         </dependency>
+        -->
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
