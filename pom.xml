@@ -12,6 +12,7 @@
     <modules>
         <module>camel-playgrounds-hello-world</module>
         <module>camel-playgrounds-idempotent-consumers</module>
+        <module>camel-playgrounds-quartz</module>
     </modules>
 
     <properties>
