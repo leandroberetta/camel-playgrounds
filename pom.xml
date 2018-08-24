@@ -13,6 +13,7 @@
         <module>camel-playgrounds-hello-world</module>
         <module>camel-playgrounds-idempotent-consumers</module>
         <module>camel-playgrounds-quartz</module>
+        <module>camel-playgrounds-load-balancer</module>
     </modules>
 
     <properties>
@@ -44,7 +45,12 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-test</artifactId>
             <scope>test</scope>
         </dependency>
 
@@ -66,6 +72,7 @@
             <artifactId>log4j</artifactId>
             <version>${log4j-version}</version>
         </dependency>
+
     </dependencies>
 
     <build>
